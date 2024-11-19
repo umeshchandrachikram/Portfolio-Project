@@ -1,0 +1,95 @@
+.profile_name {
+  float: left;
+  padding: 20px; 
+  color: #e10d0d;
+  font-size: 20px;
+}
+body {
+  background-color: lightblue;
+}
+
+nav ul {
+  list-style-type-:none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: blue;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topmenu:hover {
+  color:white;
+  font-weight: bolder;
+  text-decoration: underline
+}
+.skill-item{
+  display: flex;
+  gap: 10px; 
+}
+.skill-item img {
+  width: 200px; 
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 50px 0;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #0a0a0afa;
+  padding: 20px;
+  margin: 0 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  color: purple;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+ .textarea{
+  height: 500px;
+  resize:none;
+ }
+ .recommendations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 50px 0
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input[type="text"], textarea {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+#popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+}
